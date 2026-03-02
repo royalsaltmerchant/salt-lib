@@ -1,0 +1,34 @@
+{
+  "name": "salt-lib",
+  "version": "0.1.1",
+  "description": "salt-lib: a simple dynamic frontend rendering library.",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run --cache ./.npm-cache",
+    "prepublishOnly": "npm test"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "salt-lib",
+    "frontend",
+    "rendering",
+    "dynamic",
+    "component",
+    "vanilla-js",
+    "lifecycle"
+  ],
+  "license": "MIT"
+}

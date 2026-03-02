@@ -1,0 +1,89 @@
+:root {
+  color-scheme: light;
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(160deg, #fffdf8 0%, #eef3ff 100%);
+  color: #17233a;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+#app {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.subtitle {
+  margin: 8px 0 20px;
+  color: #51607a;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.toolbar button {
+  border: 0;
+  border-radius: 8px;
+  background: #17233a;
+  color: #fff;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.toolbar button.secondary {
+  background: #6e7d96;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  border: 1px solid #ccd6eb;
+  border-radius: 12px;
+  background: #fff;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-title {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.card-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card small {
+  color: #5e6e88;
+}
+
+.card button {
+  border: 0;
+  border-radius: 8px;
+  background: #dce7ff;
+  color: #17233a;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
