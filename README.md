@@ -5,13 +5,13 @@ Simple dynamic frontend rendering library.
 ## Install
 
 ```bash
-npm install @julianranieri/salt-lib
+npm install @royalsaltmerchant/salt-lib
 ```
 
 ## Exports
 
 ```js
-import { Component, createElement } from "@julianranieri/salt-lib";
+import { Component, createElement } from "@royalsaltmerchant/salt-lib";
 ```
 
 ## Core Model
@@ -72,7 +72,7 @@ Lifecycle rules:
 `childElem` is shorthand for: get cached child -> run child render -> return `child.domElem`.
 
 ```js
-import { Component, createElement } from "@julianranieri/salt-lib";
+import { Component, createElement } from "@royalsaltmerchant/salt-lib";
 
 class CounterCard extends Component {
   render = async () => {
