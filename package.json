@@ -1,6 +1,6 @@
 {
-  "name": "salt-lib",
-  "version": "0.1.1",
+  "name": "@julianranieri/salt-lib",
+  "version": "0.1.2",
   "description": "salt-lib: a simple dynamic frontend rendering library.",
   "type": "module",
   "main": "./src/index.js",
@@ -11,6 +11,9 @@
   },
   "exports": {
     ".": "./src/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "sideEffects": false,
   "engines": {
