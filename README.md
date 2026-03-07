@@ -173,6 +173,48 @@ A `render()` return value can include:
 - strings / numbers
 - component instances (their `domElem` is appended)
 
+## Landing Page (GitHub Pages)
+
+The repo root includes a production-style landing page built with `salt-lib`:
+
+Files:
+- `index.html`
+- `landing.css`
+- `landing.js` (entrypoint)
+- `landing/constants.js`
+- `landing/utils.js`
+- `landing/components/LandingPage.js`
+- `landing/components/HeroSection.js`
+- `landing/components/InstallPill.js`
+- `landing/components/ValueSection.js`
+- `landing/components/PlaygroundSection.js`
+- `landing/components/MemoCard.js`
+- `landing/components/UseChildDemoCard.js`
+- `landing/components/ChildStateCard.js`
+- `landing/components/HtmlOptionsCard.js`
+- `landing/components/RaceDemoCard.js`
+- `landing/components/HowToUseSection.js`
+- `landing/components/SnippetSwitcher.js`
+
+Local preview:
+
+```bash
+python3 -m http.server 4173
+```
+
+Open:
+
+```text
+http://localhost:4173/
+```
+
+Publish with GitHub Pages:
+1. Push these files to your default branch.
+2. In GitHub repo settings, open **Pages**.
+3. Set source to **Deploy from a branch**.
+4. Select your default branch and folder **/ (root)**.
+5. Your URL will be `https://<github-username>.github.io/<repo-name>/`.
+
 ## Example App In Repo
 
 Files:
